@@ -47,17 +47,16 @@ label {
 input {
     padding: 10px;
     margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:#a01c1c;
+    box-shadow: 0 0 10px #a01c1c;
 }
 
 button {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color:  #a01c1c;
     color: #fff;
-
+    margin-bottom: 15px;    
 }
 
 table {
