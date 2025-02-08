@@ -33,11 +33,10 @@ main h2{
     margin-top: 20px;
 }
 main img{
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
     margin: 20px;
     margin-right: 40px;
-    float: left; 
 }
 main p {
     height: 30px;
@@ -46,15 +45,10 @@ main p {
     margin-top: 20px;
     width: 70%;
   }
-  
 footer {
     background-color:  #a01c1c;
     color: #fff;
     padding: 20px;
     text-align: center;
     clear: both;
-}
-main img{
-    width: 150px;
-    height: 200px;
 }

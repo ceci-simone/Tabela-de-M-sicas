@@ -28,10 +28,7 @@ nav a {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 form {
@@ -57,22 +54,6 @@ button {
     background-color:  #a01c1c;
     color: #fff;
     margin-bottom: 15px;    
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color:  #a01c1c;
-    color: #fff;
 }
 
 footer {
