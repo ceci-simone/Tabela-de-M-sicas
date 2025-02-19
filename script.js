@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// seleciona o formulário e a tabela
+=======
 // Seleciona o formulário e a tabela
+>>>>>>> 9cde75e291fff4d9eca9899ea30dba75f1fddd9a
 const form = document.getElementById('form-cadastro');
 const tabela = document.getElementById('tabela-cadastro').getElementsByTagName('tbody')[0];
 const thId = document.querySelector('#tabela-cadastro th:nth-child(1)');
@@ -13,12 +17,20 @@ let ordemAscendenteBanda = true;   //ordenação por banda
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // evita o recarregamento da página
 
+<<<<<<< HEAD
+  // pegando os dados do formulário
+=======
   // eegando os valores do formulário
+>>>>>>> 9cde75e291fff4d9eca9899ea30dba75f1fddd9a
   const nome = document.getElementById('nome').value;
   const banda = document.getElementById('banda').value;
   const id = tabela.rows.length + 1;
 
+<<<<<<< HEAD
+  // criando linha na tabela
+=======
   // criando nova linha na tabela
+>>>>>>> 9cde75e291fff4d9eca9899ea30dba75f1fddd9a
   const novaLinha = tabela.insertRow();
 
   // criando as células
